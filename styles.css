@@ -1,0 +1,69 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 90px;
+    padding-right: 90px;
+    box-shadow: 1px 1px 5px #ececece7;
+}
+
+.logo {
+    padding-top: 20px;
+}
+
+.nav {
+    display: flex;
+    color: #666;
+}
+
+.nav-item {
+    padding: 20px;
+    cursor: pointer;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+}
+
+.title-container {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-family: Inter, serif;
+    color: #666;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.description-container {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    color: #666;
+    font-weight: 400;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    padding-top:20px;
+}
+
+.cta-button {
+    cursor: pointer;
+    background-color: #387ed1;
+    border-radius: 3px;
+    border: 1px solid dodgerblue;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
